@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.card-img-top{
+    height: 200px;
+}
+
+.card{
+   border: none;
+   width: 90%;
+}
+
+img{
+    object-fit: cover;
+    transition: transform 0.3s ease; 
+}
+
+img:hover{
+        transform: scale(0.9);  
+}
+
+.total{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.navbar-collapse{
+    text-align: end;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-toggler{
+
+    border: none;
+}
+
+.navbar-toggler:active{
+    border: none;
+}
+
+.container-fluid{
+    margin-left: 40px;
+    margin-right: 40px;
+}
